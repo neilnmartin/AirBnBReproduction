@@ -1,0 +1,24 @@
+/* Remove padding and margin */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+div {
+  display: block;
+}
+.HeadWrapper {
+  position: relative;
+  /* background: darkgray; */
+  padding-left: 68px;
+  min-height: 48px;
+}
+
+.HeadWrapper a img {
+  position: absolute;
+  left: 0;
+  border-radius: 24px;
+  width: 48px;
+  height: 48px;
+}

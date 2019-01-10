@@ -1,0 +1,17 @@
+/* Remove padding and margin */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+div {
+  display: block;
+}
+.messageWrapper {
+  margin-top: 24px;
+}
+
+.message button {
+  color: #008489;
+}
