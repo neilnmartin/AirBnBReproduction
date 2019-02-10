@@ -1,0 +1,60 @@
+.bigWrapper {
+  max-width: 1080px;
+  margin: auto;
+  padding: 0 24px;
+}
+.innerWrapper {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+header {
+  border: none !important;
+}
+.leftSide {
+  flex: 1;
+}
+
+.rightSide {
+  float: 1;
+  margin-left: 40px;
+}
+
+.innerRight {
+  position: sticky;
+  top: 0px;
+  padding-top: 40px;
+}
+.airbnbLogo {
+  width: 25px;
+  border-radius: 0%;
+}
+
+.eventTopBarTable {
+  display: table;
+  width: 100%;
+  border-bottom: 1px solid gray;
+}
+
+.eventTopBarCellOne {
+  display: table-cell;
+  padding: 20px 20px 14px 20px;
+  width: 9.1%;
+}
+
+.Carousel__heading___2WDUQ {
+  margin-top: 40px !important;
+  margin-bottom: 40px !important;
+}
+
+.eventTopBarCellTwo {
+  width: 65.25%;
+}
+
+.style__headerBody___szkux {
+  margin: 0 !important;
+}
+
+.style__eventTopBarTable___246FS {
+  display: none !important;
+}

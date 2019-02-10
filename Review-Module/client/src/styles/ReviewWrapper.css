@@ -1,0 +1,22 @@
+/* Remove padding and margin */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+div {
+  display: block;
+}
+
+.reviewWrapper {
+  flex: 1;
+}
+
+.titleWrapper {
+  margin-top: 24px;
+}
+
+.review {
+  font-size: 16px;
+}

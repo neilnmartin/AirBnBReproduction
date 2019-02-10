@@ -1,0 +1,39 @@
+/* Remove padding and margin */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+div {
+  display: block;
+}
+.modalWrapper {
+  position: fixed !important;
+  z-index: 2000 !important;
+  top: 0px !important;
+  right: 0px !important;
+  bottom: 0px !important;
+  left: 0px !important;
+  overflow-y: auto !important;
+}
+
+.modalOverlay {
+  display: table !important;
+  height: 100% !important;
+  width: 100% !important;
+  background-color: rgba(255, 255, 255, 0.8) !important;
+}
+.modal {
+  display: table-cell !important;
+  vertical-align: middle !important;
+  padding: 64px !important;
+}
+.modalGuts {
+  background-color: rgb(255, 255, 255) !important;
+  max-width: 568px !important;
+  width: 100% !important;
+  position: relative !important;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 10px 0px !important;
+  margin: auto !important;
+}

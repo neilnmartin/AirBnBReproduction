@@ -1,0 +1,218 @@
+body {
+    margin: 0px;
+}
+
+.headerBody {
+    color: black;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+    margin-left: 10%;
+    margin-right: 40%;
+    font-family: Circular,“Helvetica Neue”,Helvetica,Arial,sans-serif !important;
+    line-height: 15px;
+    
+}
+
+header {
+    border-bottom: 1px solid lightgray;
+}
+
+.airbnbLogo {
+    width: 25px;
+    border-radius: 0%;
+}
+
+
+
+.eventTopBarTable {
+    display: table;
+    
+}
+
+.eventTopBarCellOne {
+    display: table-cell;
+    padding: 20px 20px 14px 20px;
+    width: 9.1%;
+}
+
+.eventTopBarCellTwo {
+    width: 65.25%;
+}
+
+
+.transparentBackgroundButton {
+    background: transparent;
+    border-style: none;
+    font-size: 1em;
+    padding: 0px;
+    color: rgb(0, 132, 137);
+    
+}
+
+.transparentBackgroundButton:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.transparentBackgroundNameButton {
+    background: transparent;
+    border-style: none;
+    font-size: 1em;
+    padding: 0px;
+    color: rgb(0, 132, 137);
+    padding-left: 4px;
+}
+
+.transparentBackgroundNameButton:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+.topButtonBar {
+    width: 100px;
+    margin: 0px;
+}
+
+.topSearchBar {
+    margin: 0px;
+    width: 100px;
+    color: red;
+}
+
+.eventHeaderTitlePadding {
+    padding-top: 30px;
+    padding-bottom: 6px;
+    margin-bottom: 6px;
+}
+
+.eventHeaderTitle {
+    font-size: 1.5em;
+    font-weight: 800;
+    margin: 0em;
+}
+
+.eventHeaderNegativeMargin {
+    margin-top: -1.5em;
+}
+
+.eventHeaderPadding {
+    padding-bottom: 1em;
+    padding-top: 1em;
+    border-bottom: 1px solid lightgray;
+
+}
+
+.eventHeaderMargin {
+    margin-bottom: 1em;
+    box-sizing: border-box;
+    display: table;
+}
+
+.eventHeaderTableView {
+    display: table-row;
+}
+
+.eventHeaderHalfPadding {
+    padding-bottom: .5em;
+    padding-top: .5em;
+}
+
+.eventHeaderHostAndExperienceType {
+    line-height: 22px;
+    font-size: 14px;
+    display: table-cell;
+    width: 530px;
+}
+
+.eventHeaderAvatarImage {
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+.eventHeaderAvatarImageStyles {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.eventHeaderRequirementsPadding {
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
+    display: block;
+    border-top: 1px solid lightgray;
+}
+.eventHeaderRequirementsMargin {
+    font-size: 14px;
+    margin-bottom: 1em;
+    display: table
+}
+
+.eventHeaderRequirementsTableRow {
+    display: table-row;
+}
+
+.eventHeaderRequirementsNegativeMargin {
+    margin-bottom: -2em;
+}
+
+.cellOne {
+    display: table-cell;
+}
+
+.cellTwo {
+    display: table-cell;
+    padding-left: 6px;
+}
+
+.eventViewsPadding {
+    padding-bottom: 1.4em;
+    padding-top: 1.4em;
+    display: block;
+    border-bottom: 1px solid lightgray;
+}
+
+.eventViewsTable {
+    display: table;
+    border: 0;
+}
+
+.eventViewsTableRow {
+    display: table-row;
+}
+
+.cellThree {
+    padding-right: 12px;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 14px;
+    
+}
+
+.cellFour {
+    padding-right: 8px;
+    display: table-cell;
+    vertical-align: middle
+}
+
+.eventViewsTextStyling {
+    font-size: 14px;
+    
+}
+
+.eventAboutHostPadding {
+    padding-bottom: 1.4em;
+    padding-top: 1.4em;
+    display: block;
+    border-bottom: 1px solid lightgray;
+}
+
+.eventAboutHostTitle {
+    margin-bottom: 16px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.eventAboutHostDescription {
+    font-size: 14px;
+}

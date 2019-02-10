@@ -1,0 +1,60 @@
+/* Remove padding and margin */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+div {
+  display: block;
+}
+
+.bigButton {
+  width: 100%;
+  background: transparent !important;
+  border: 0px !important;
+  cursor: pointer !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  text-align: left !important;
+  vertical-align: bottom !important;
+}
+
+.readReviewsWrapper {
+  display: flex;
+  color: #008489;
+  padding: 24px 0;
+  border-bottom: 1px solid lightgray;
+}
+.readReviewsWrapper:hover {
+  cursor: pointer;
+}
+
+.readReviewLeft {
+  float: left;
+  flex: 1;
+  display: inline;
+}
+.readReviewLeft span:hover {
+  text-decoration: underline;
+}
+
+.readReviewRight {
+  float: right;
+  text-align: right;
+  flex: 1;
+}
+
+.star {
+  margin-right: 6px;
+  height: 16px;
+  width: 16px;
+  color: rgb(0, 132, 137) !important;
+}
+
+.Star {
+  height: 1em;
+  width: 1em;
+  display: inline;
+  fill: currentColor;
+}
