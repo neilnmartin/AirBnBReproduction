@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
-const SignUpModal = (props) => {
-  return(
+const SignUpModal = props => {
+  return (
     <div id="signUpModal">
       <div>
         <button>X</button>
@@ -21,7 +21,7 @@ const SignUpModal = (props) => {
         <span href="/login">Log in</span>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default SignUpModal;

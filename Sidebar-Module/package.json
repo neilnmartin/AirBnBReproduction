@@ -1,5 +1,5 @@
 {
-  "name": "sidebar",
+  "name": "sidebar-module",
   "version": "1.0.0",
   "description": "Sidebar Component for Airbnb Experiences Item Page",
   "main": "index.js",
