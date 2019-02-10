@@ -1,18 +1,3 @@
-# FROM node:carbon
-
-# WORKDIR /
-# COPY package*.json ./
-
-# RUN npm install
-
-# COPY . .
-
-# EXPOSE 3005
-
-# CMD ["npm","run","start"]
-
-##############################
-
 FROM node:8
 
 COPY . /WhereWhen-Module

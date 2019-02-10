@@ -1,7 +1,7 @@
-const Sequelize = require('sequelize');
-const { FECdb } = require('./index');
+const Sequelize = require("sequelize");
+const { FECdb } = require("./index");
 
-const WhereWellBe = FECdb.define('wherewellbe', {
+const WhereWellBe = FECdb.define("wherewellbe", {
   mapimageurl: {
     type: Sequelize.STRING,
     allowNull: false
@@ -16,7 +16,7 @@ const WhereWellBe = FECdb.define('wherewellbe', {
   }
 });
 
-const WhensAvailable = FECdb.define('whensavailable', {
+const WhensAvailable = FECdb.define("whensavailable", {
   booked: {
     type: Sequelize.DATE,
     allowNull: false
@@ -28,14 +28,14 @@ const WhensAvailable = FECdb.define('whensavailable', {
 });
 
 FECdb.sync()
-.then(() => {
-  console.log('Successfully synced FECdb!');
-})
-.catch((err) => {
-  console.log(err);
-});
+  .then(() => {
+    console.log("Successfully synced FECdb!");
+  })
+  .catch(err => {
+    console.log(err);
+  });
 
-  module.exports = {
-    WhereWellBe,
-    WhensAvailable
-  }
+module.exports = {
+  WhereWellBe,
+  WhensAvailable
+};

@@ -1,8 +1,5 @@
-import React from 'react';
-import { render } from 'react-dom';
-import WhereWhen from './components/WhereWhen';
+import React from "react";
+import { render } from "react-dom";
+import WhereWhen from "./components/WhereWhen";
 
-render(
-  <WhereWhen />,
-  document.getElementById('wherewhen')
-)
+render(<WhereWhen />, document.getElementById("wherewhen"));
