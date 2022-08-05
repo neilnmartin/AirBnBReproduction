@@ -44,7 +44,7 @@
     "jest": "^23.4.2",
     "lodash.debounce": "^4.0.8",
     "lodash.throttle": "^4.1.1",
-    "mongoose": "^5.2.4",
+    "mongoose": "^5.7.5",
     "morgan": "^1.9.0",
     "nodemon": "^1.18.3",
     "path": "^0.12.7",
